@@ -384,7 +384,7 @@ code {
   margin-bottom: 15px;
 }
 
-.blog-detail p {
+.blog-detail p, .blog-detail li {
   font-size: 1rem;
 }
 /* Blog detail */
@@ -403,7 +403,7 @@ code {
     font-size: 17px;
   }
 
-  p {
+  p, li {
     font-size: 15px;
   }
 
@@ -437,7 +437,7 @@ code {
   }
 
   .navbar ul button {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .welcome-container {
@@ -445,7 +445,7 @@ code {
   }
 
   .btn-welcome {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .auth-container {
@@ -453,19 +453,19 @@ code {
   }
 
   .auth-input {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .btn-auth {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .auth-link {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .auth-error {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .auth-google-btn {
@@ -498,11 +498,7 @@ code {
   }
 
   .blog-item p {
-    font-size: 12px;
-  }
-
-  .blog-content {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .blog-detail-container {
