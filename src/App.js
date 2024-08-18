@@ -1,12 +1,12 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Signup from "./components/Signup";
-import Login from "./components/Login";
-import MainApp from "./components/MainApp";
-import CreateBlog from "./components/CreateBlog";
-import BlogDetail from "./components/BlogDetail";
-import Welcome from "./components/Welcome";
-import MyPosts from "./components/MyPosts";
+import Signup from "./pages/Signup";
+import Login from "./pages/Login";
+import MainApp from "./pages/MainApp";
+import CreateBlog from "./pages/CreateBlog";
+import BlogDetail from "./pages/BlogDetail";
+import Welcome from "./pages/Welcome";
+import MyPosts from "./pages/MyPosts";
 import ProtectedRoute from "./components/ProtectedRoute"; // Import the ProtectedRoute component
 import "./App.css";
 

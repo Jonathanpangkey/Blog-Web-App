@@ -4,7 +4,7 @@ import {firestore} from "../firebaseConfig";
 import {doc, getDoc} from "firebase/firestore";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 
 function BlogDetail() {
   const {id} = useParams();

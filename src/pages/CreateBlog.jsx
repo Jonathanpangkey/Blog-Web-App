@@ -7,7 +7,7 @@ import MarkdownEditor from "react-markdown-editor-lite";
 import ReactMarkdown from "react-markdown";
 import "react-markdown-editor-lite/lib/index.css";
 import remarkGfm from "remark-gfm";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 
 function CreateBlog() {
   const [newBlogTitle, setNewBlogTitle] = useState("");

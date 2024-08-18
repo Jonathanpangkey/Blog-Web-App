@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {firestore} from "../firebaseConfig";
 import {collection, getDocs} from "firebase/firestore";
 import {useNavigate} from "react-router-dom";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 
 function MainApp() {
   const [blogs, setBlogs] = useState([]);

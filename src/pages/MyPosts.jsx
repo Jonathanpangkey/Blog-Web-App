@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import {auth, firestore, storage} from "../firebaseConfig";
 import {collection, query, where, getDocs, deleteDoc, doc} from "firebase/firestore";
 import {ref, deleteObject} from "firebase/storage";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar";
 import {useNavigate} from "react-router-dom";
 
 function MyPosts() {
